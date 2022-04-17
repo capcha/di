@@ -1,0 +1,25 @@
+footer, header {
+  padding: 10px;
+}
+
+footer {
+  padding: 5px;
+  margin-top: auto;
+  border-top: 1px solid black;
+}
+
+.page-div {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 96vh;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.link {
+  text-align: left;
+  font-size: 20px;
+}
